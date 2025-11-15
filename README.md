@@ -14,3 +14,30 @@ CampusHub-учебный портал на Django для публикации н
 | gunicorn  | 22.0.0  | 
 | celery  | 5.4.0  | 
 
+### Таблица с версиями пакетов
+
+| Пакет               | Версия | Назначение                                    |
+| ------------------- | ------ | --------------------------------------------- |
+| Django              | 5.1.2  | Веб‑фреймворк и ORM для ядра приложения .     |
+| djangorestframework | 3.15.2 | REST API: сериализаторы, вьюсеты, пагинация . |
+| psycopg2-binary     | 2.9.9  | Адаптер PostgreSQL для Django .               |
+| gunicorn            | 22.0.0 | WSGI‑сервер для продакшн‑запуска .            |
+| celery              | 5.4.0  | Очереди фоновых задач .                       |
+| redis               | 5.0.8  | Брокер/кеш для Celery и приложения .          |
+| drf-spectacular     | 0.27.2 | Генерация OpenAPI/Swagger для DRF .           |
+| pytest              | 8.3.3  | Тестовый раннер для Python .                  |
+| black               | 24.8.0 | Автоформатирование кода .                     |
+| isort               | 5.13.2 | Сортировка импортов .                         |
+
+### Пример кода для активации окружения
+
+# Создание окружения (универсально)
+python -m venv .venv
+
+# Активация
+# Linux/macOS:
+source .venv/bin/activate
+# Windows (CMD):
+.venv\Scripts\activate
+# Windows (PowerShell):
+.venv\Scripts\Activate.ps
