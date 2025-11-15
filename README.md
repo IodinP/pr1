@@ -1,1 +1,1 @@
-# pr1
+# Python Django приложение
