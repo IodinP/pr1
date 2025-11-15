@@ -31,13 +31,13 @@ CampusHub-учебный портал на Django для публикации н
 
 ### Пример кода для активации окружения
 
-# Создание окружения (универсально)
-python -m venv .venv
+#### Создание окружения (универсально)
+```python -m venv .venv```
 
-# Активация
-# Linux/macOS:
-source .venv/bin/activate
-# Windows (CMD):
-.venv\Scripts\activate
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps
+#### Активация
+#### Linux/macOS:
+```source .venv/bin/activate```
+#### Windows (CMD):
+```.venv\Scripts\activate```
+#### Windows (PowerShell):
+```.venv\Scripts\Activate.ps```
